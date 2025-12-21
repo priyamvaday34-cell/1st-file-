@@ -1,0 +1,26 @@
+#name = input("Enter your name: ")
+#print("You entered:",name)
+#print("type of input:", type(name))
+
+#age = input("Enter your age: ")
+#age_int = int(age)
+#print("You entered:",age_int)
+#print("type of input:", type(age_int))
+#height = input("Enter your height: ")
+#height_float = float(height)
+#print("You entered:",height_float)
+#print("type of input:", type(height_float))
+name = input("Enter your name: ")
+print("You entered:", name)
+print("type of input:", type(name))
+
+age = input("Enter your age: ")
+age_int = int(age)
+print("You entered:", age_int)
+print("type of input:", type(age_int))
+
+height = input("Enter your height: ")
+height_float = float(height)
+print("You entered:", height_float)
+print("type of input:", type(height_float))
+
