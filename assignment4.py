@@ -39,7 +39,20 @@ else:
     print(f"Your electricity bill is: {bill}")
 
 
-#code3: Factorial of a number
+
+    #code3: first N natural numbers 
+def print_natural_numbers(n):
+    for i in range(1, n + 1):
+        print(i, end=' ')
+num = int(input("Enter a positive integer: "))
+if num <= 0:
+    print("Please enter a positive integer.")
+else:
+    print(f"The first {num} natural numbers are:")
+    print_natural_numbers(num)
+
+
+#code4: Factorial of a number
 def factorial(n):
     if n == 0 or n == 1:
         return 1
